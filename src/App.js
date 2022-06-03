@@ -1,12 +1,14 @@
 import React from "react";
 import "./style.css";
+import Button from "./Button";
 
-const App = () =>
-{
+const App = () => {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Hello World!</h1>
-      <button className="button">Hello ji</button>
+      <Button title="App Store" />
+      <Button title="Play Store" />
+      {/* <button className="button">Play Store</button> */}
     </div>
   );
 };
